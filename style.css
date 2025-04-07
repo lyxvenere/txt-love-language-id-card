@@ -1,0 +1,44 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f8f0e3; /* A softer background color */
+  padding: 30px;
+}
+
+.card-container {
+  background: #a52a2a; /* A less harsh red */
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 320px; /*slight width increase*/
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* More subtle shadow */
+}
+
+.form {
+  margin-top: 30px;
+}
+
+input, select, button {
+  padding: 12px;
+  margin: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd; /* add a light border */
+  font-size: 16px;
+  width: 250px; /*increase input width*/
+}
+
+button {
+  background-color: #8b0000; /* darker red for buttons */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #660000; /* darker hover color */
+}
+
+.card-container strong {
+  font-weight: bold;
+}
